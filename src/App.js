@@ -1,11 +1,11 @@
-import logo from './coming-soon.webp';
+// import logo from './coming-soon.webp';
 import './App.css';
 
 function App() {
   return (
     <div className="App1">
       <header className="App-header1">
-        <img src={logo} className="App-logo1" alt="logo" />
+        <img src="coming-soon.webp" className="App-logo1" alt="logo" />
       </header>
     </div>
   );
