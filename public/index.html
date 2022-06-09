@@ -41,3 +41,21 @@
     -->
   </body>
 </html>
+<script>
+  (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
+    'cwr',
+    '0c6e1ecc-7ed6-4de3-b99c-9af496cc7fb9',
+    '1.0.0',
+    'us-east-1',
+    'https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js',
+    {
+      sessionSampleRate: 1,
+      guestRoleArn: "arn:aws:iam::136051238056:role/RUM-Monitor-us-east-1-136051238056-2172157674561-Unauth",
+      identityPoolId: "us-east-1:06831735-fc9f-49f9-ac8a-16d51b1c9025",
+      endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
+      telemetries: ["performance","errors","http"],
+      allowCookies: true,
+      enableXRay: false
+    }
+  );
+</script>
