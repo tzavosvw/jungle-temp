@@ -22,7 +22,8 @@
   header.App-header1 {
     height: 100vh;
     background: url('../public/coming-soon.webp') no-repeat center fixed;
-    background-size: cover;
+    background-size: 195%;
+    background-color: #38ef21;
   }
   .App-header1 img {
     width: 100%;
